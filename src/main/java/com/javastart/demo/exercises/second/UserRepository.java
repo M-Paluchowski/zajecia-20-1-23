@@ -18,7 +18,7 @@ public class UserRepository {
     }
 
     public List<User> getAll() {
-        return users;
+        return new ArrayList<>(users);
     }
 
     public void add(User user) {
